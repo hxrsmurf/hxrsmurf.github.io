@@ -47,6 +47,7 @@ disqusShortname = ''
     name = 'Home'
     url = '/'
     weight = 10
+
   [[Languages.en-gb.menu.main]]
     pageRef="books"
     name = 'Books'
@@ -54,16 +55,40 @@ disqusShortname = ''
     weight = 20
 
   [[Languages.en-gb.menu.main]]
-    pageRef="tv"
-    name = 'TV'
-    url = '/tv/'
+    pageRef="movies"
+    name = 'Movies'
+    url = '/movies/'
     weight = 30
+
+  [[Languages.en-gb.menu.main]]
+    pageRef="music"
+    name = 'Music'
+    url = '/music/'
+    weight = 40
+
+  [[Languages.en-gb.menu.main]]
+    pageRef="people"
+    name = 'People'
+    url = '/people/'
+    weight = 50
+
+  [[Languages.en-gb.menu.main]]
+    pageRef="random"
+    name = 'Random'
+    url = '/random/'
+    weight = 60
+  
+  [[Languages.en-gb.menu.main]]
+    pageRef="videogames"
+    name = 'Video Games'
+    url = '/videogames/'
+    weight = 60
 
   [[Languages.en-gb.menu.main]]
     pageRef="links"
     name = 'Links'
     url = '/links/'
-    weight = 40
+    weight = 70
 
 [Languages.en-gb.params]
   sitename = "Let's Make It Personal"
@@ -93,7 +118,7 @@ disqusShortname = ''
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
   intro = "Let's Make It Personal"
   name = "hxrsmurf"
-  description = "Welcome to my website!"
+  description = "Welcome to my website! Just some cool quotes."
 
 # Allow to override webmanifest options
 [Languages.en-gb.params.webmanifest]
