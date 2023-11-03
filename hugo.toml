@@ -47,18 +47,23 @@ disqusShortname = ''
     name = 'Home'
     url = '/'
     weight = 10
+  [[Languages.en-gb.menu.main]]
+    pageRef="books"
+    name = 'Books'
+    url = '/books/'
+    weight = 20
 
   [[Languages.en-gb.menu.main]]
     pageRef="tv"
     name = 'TV'
     url = '/tv/'
-    weight = 20
+    weight = 30
 
   [[Languages.en-gb.menu.main]]
     pageRef="links"
     name = 'Links'
     url = '/links/'
-    weight = 30
+    weight = 40
 
 [Languages.en-gb.params]
   sitename = "Let's Make It Personal"
