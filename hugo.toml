@@ -77,18 +77,24 @@ disqusShortname = ''
     name = 'Random'
     url = '/random/'
     weight = 60
+
+  [[Languages.en-gb.menu.main]]
+    pageRef="tv"
+    name = 'TV'
+    url = '/tv/'
+    weight = 70
   
   [[Languages.en-gb.menu.main]]
     pageRef="videogames"
     name = 'Video Games'
     url = '/videogames/'
-    weight = 60
+    weight = 80
 
   [[Languages.en-gb.menu.main]]
     pageRef="links"
     name = 'Links'
     url = '/links/'
-    weight = 70
+    weight = 1000
 
 [Languages.en-gb.params]
   sitename = "Let's Make It Personal"
